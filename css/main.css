@@ -1,0 +1,148 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+  background-color: #29303B;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #1C232D;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3F4B59), to(#333D46));
+  background-image: linear-gradient(#3F4B59, #333D46);
+  padding: 3em 1em;
+}
+
+.wrapper .rate-info {
+  padding: 1em;
+  font-size: 1.2rem;
+  color: #ddd;
+  margin-top: 1em;
+}
+
+.wrapper .header {
+  width: 100%;
+  text-align: center;
+  color: #ddd;
+}
+
+.wrapper .header .title {
+  margin-bottom: .5em;
+}
+
+.wrapper .header p {
+  margin-bottom: 1em;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.wrapper .app-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.wrapper .app-body .section-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .app-body .section-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .app-body input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  padding: .3em;
+  font-size: 2.5rem;
+  color: #ddd;
+  text-align: center;
+}
+
+.wrapper .app-body select {
+  padding: .3em;
+  background-color: transparent;
+  border: none;
+  color: #ddd;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.wrapper .app-body select option {
+  background-color: #333D46;
+  color: #ddd;
+}
+
+.wrapper .app-body .swap {
+  padding: 1em 2em;
+  border-radius: 25px;
+  margin: 0 .2em;
+  background-image: linear-gradient(45deg, #2b89e7, #11e763);
+  font-size: .8rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.wrapper .app-body .swap i {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+.wrapper .app-body .swap:focus {
+  outline: none;
+  border: 2px solid goldenrod;
+}
+
+.wrapper .app-body select:focus, .wrapper .app-body input:focus {
+  outline: none;
+  color: #43abff;
+}
+/*# sourceMappingURL=main.css.map */

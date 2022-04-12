@@ -1,0 +1,111 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+	min-height: 100vh;
+	background-color: #29303B;
+}
+
+.wrapper {
+	width: 90%;
+	max-width: 700px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    border: 1px solid #1C232D;
+    background-image: linear-gradient(#3F4B59, #333D46);
+    padding: 3em 1em;
+.rate-info{
+    padding: 1em;
+    font-size: 1.2rem;
+    color: #ddd;
+    margin-top: 1em;
+}
+    .header{
+        width: 100%;
+        text-align: center;
+        color: #ddd;
+
+        .title{
+            margin-bottom: .5em;
+        }
+
+        p{
+            margin-bottom: 1em;
+            font-size: 1.2rem;
+            font-weight: 200;
+        }
+    }
+
+    .app-body{
+        display: flex;
+        align-items: end;
+        
+       
+        .section-left{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .section-right{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input{
+            width: 100%;
+            background-color: transparent;
+            border: none;
+            padding: .3em;
+            font-size: 2.5rem;
+            color: #ddd;
+            text-align: center;
+            }
+
+            select{
+                padding: .3em;
+                background-color: transparent;
+                border: none;
+                color: #ddd;
+                font-size: 1.6rem;
+                cursor: pointer;
+
+                option{
+                    background-color: #333D46;
+                    color: #ddd;
+                    
+                }
+            }
+            .swap{
+                padding: 1em 2em;
+                border-radius: 25px;
+                margin: 0 .2em;
+                background-image: linear-gradient(45deg, #2b89e7, #11e763);
+                font-size: .8rem;
+                border: 2px solid transparent;
+                cursor: pointer;
+
+                i{
+                    font-size: 1.2rem;
+                    color: #ddd;
+                }
+             &:focus{
+                 outline: none;
+                 border: 2px solid goldenrod;
+             }   
+            }
+
+        select:focus, input:focus{
+            outline: none;
+            color: rgb(67, 171, 255);
+        }
+    }
+}
